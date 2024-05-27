@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="bg-[url('public/img/bg-1.avif')] h-screen bg-cover bg-center">
+    <header class="relative bg-[url('public/img/bg-1.avif')] h-screen bg-cover bg-center">
         <nav class="flex justify-between items-center bg-black h-24">
             <div class="ml-8">
                 <img class="w-40" src="public/img/logo-hp.png" alt="">
@@ -62,9 +62,21 @@
             </div>
         </nav>
 
-        <div class=""></div>
-        <div class=""></div>
-        <div class=""></div>
+        <div class="mt-32 text-center text-white">
+            <h1 class="text-[40px]">Philosopher's Stone</h1>
+            <p class="">Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+
+        <div class="absolute bottom-20 flex flex-col items-center w-[100%] lg:flex-row lg:justify-center lg:space-x-4">
+            <button class="uppercase bg-blue-600 w-80 text-white rounded-full h-10">Objednat</button>
+            <button class="mt-2 uppercase bg-blue-950 w-80 text-white rounded-full h-10">Více informací</button>
+        </div>
+        <div class="text-white absolute bottom-5 w-[100%]">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mx-auto animate-bounce">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+              </svg>
+              
+        </div>
     
     </header>
 </body>
